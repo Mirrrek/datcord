@@ -113,5 +113,6 @@ For more information check the jsdoc comments.
 NOT YET IMPLEMENTED
 
 # Todo
-Cache simple data (guilds, users, messages)  
+Cache simple data (guilds, users, messages) + helper functions (messaging, interactions)  
 Make bridge to browser javascript
+Voice connections
