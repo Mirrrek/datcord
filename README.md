@@ -114,5 +114,5 @@ NOT YET IMPLEMENTED
 
 # Todo
 Cache simple data (guilds, users, messages) + helper functions (messaging, interactions)  
-Make bridge to browser javascript
+Make bridge to browser javascript  
 Voice connections
