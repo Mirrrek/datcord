@@ -61,19 +61,19 @@ Here is the default config:
 ```json
 {
     "api": {
-        "host": "discord.com",      // The API host
-        "basePath": "/api/v9",      // The base API path (build for v9, changing the version might lead to unexpected behavior)
-        "port": 443                 // The API port
+        "host": "discord.com",
+        "basePath": "/api/v9",
+        "port": 443
     },
-    "gatewayQuery": "/gateway",     // API path to the GET Gateway endpoint
-    "defaultPresence": {            // The initial presence, see https://discord.com/developers/docs/topics/gateway#update-presence-gateway-presence-update-structure
+    "gatewayQuery": "/gateway",
+    "defaultPresence": {
         "since": null,
         "activities": [],
         "status": "online",
         "afk": false
     },
-    "intents": 32641,               // The gateway intents, see https://discord.com/developers/docs/topics/gateway#list-of-intents
-    "cache": true                   // Whether to cache basic data, see Caching below
+    "intents": 32641,
+    "cache": true
 }
 ```
 
