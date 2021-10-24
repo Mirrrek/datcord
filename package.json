@@ -1,0 +1,13 @@
+{
+    "name": "datcord",
+    "version": "1.0.0",
+    "description": "A NodeJS wrapper for the Discord API.",
+    "main": "datcord.js",
+    "author": "Mirrrek",
+    "license": "ISC",
+    "dependencies": {
+        "events": "^3.3.0",
+        "https": "^1.0.0",
+        "ws": "^8.2.3"
+    }
+}

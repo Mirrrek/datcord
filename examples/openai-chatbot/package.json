@@ -1,0 +1,11 @@
+{
+    "name": "datcord-example-openai-chatbot",
+    "version": "1.0.0",
+    "description": "An example of Datcord as an AI chatbot powered by GPT-3.",
+    "main": "main.js",
+    "author": "Mirrrek",
+    "license": "ISC",
+    "dependencies": {
+        "https": "^1.0.0"
+    }
+}
