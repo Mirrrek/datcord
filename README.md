@@ -58,22 +58,22 @@ This will connect to the gateway, send a message with a component (button) to a 
 # Config
 The configuration object is passed to the `Datcord` constructor as a second, optional argument.  
 Here is the default config:
-```json
+```jsonc
 {
     "api": {
-        "host": "discord.com",
-        "basePath": "/api/v9",
-        "port": 443
+        "host": "discord.com",      // The API host
+        "basePath": "/api/v9",      // The base API path (build for v9, changing the version might lead to unexpected behavior)
+        "port": 443                 // The API port
     },
-    "gatewayQuery": "/gateway",
-    "defaultPresence": {
+    "gatewayQuery": "/gateway",     // API path to the GET Gateway endpoint
+    "defaultPresence": {            // The initial presence, see https://discord.com/developers/docs/topics/gateway#update-presence-gateway-presence-update-structure
         "since": null,
         "activities": [],
         "status": "online",
         "afk": false
     },
-    "intents": 32641,
-    "cache": true
+    "intents": 32641,               // The gateway intents, see https://discord.com/developers/docs/topics/gateway#list-of-intents
+    "cache": true                   // Whether to cache basic data, see Caching below
 }
 ```
 
